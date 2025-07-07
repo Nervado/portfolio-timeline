@@ -132,10 +132,10 @@ const timelineData = [
     icon: GraduationCap,
     color: 'from-indigo-500 to-purple-500',
     details: [
-      'Programa de excelência em gestão',
-      'Participação elogiada nos primeiros processos seletivos gerênciais',
+      'Recebimento de Elogio Gerêncial da Companhia no Curriculo Corporativo',
+      'Participação elogiada nos primeiros processos seletivos gerenciais',
       'Indicação da liderança formal para o MBA da FGV',
-      'Convite para atuar exterior na China e na Coreia pela Petrobras (Projetos P-78,P-79,P-80,P-82 e P-83).'
+      'Convite para atuar durante os proximos anos na China e na Coreia pela Petrobras (Projetos P-78,P-79,P-80,P-82 e P-83).'
     ],
     audioDescription: 'Atual fase do MBA na FGV, de 2024 até o presente, em Gestão: Liderança e Inovação. Imagem de ambiente acadêmico de excelência.'
   }
