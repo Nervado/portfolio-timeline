@@ -1,6 +1,6 @@
-# Portfólio Timeline Interativa - Mestrado FGV
+# Portfólio Timeline Interativa - MBA FGV
 
-Um site de portfólio moderno com timeline interativa, criado especificamente para apresentação no mestrado em Gestão: Liderança e Inovação da FGV.
+Um site de portfólio moderno com timeline interativa, criado especificamente para apresentação no MBAem Gestão: Liderança e Inovação da FGV.
 
 ## 🚀 Como Usar Este Projeto
 
@@ -42,7 +42,7 @@ As imagens estão em `src/assets/`:
 - `corporate_start.jpg` - Início da carreira
 - `leadership_team.jpg` - Liderança/equipe
 - `hobbies_interests.jpg` - Hobbies e interesses
-- `fgv_masters.jpg` - Mestrado FGV
+- `fgv_masters.jpg` - MBAFGV
 
 #### Editar Informações
 Abra `src/components/Timeline.jsx` e modifique o array `timelineData`:

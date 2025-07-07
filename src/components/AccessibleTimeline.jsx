@@ -125,11 +125,11 @@ const timelineData = [
   {
     id: 7,
     year: '2024-Presente',
-    title: 'Mestrado FGV',
+    title: 'MBAFGV',
     subtitle: 'Gestão: Liderança e Inovação',
-    description: 'Atual jornada acadêmica no prestigioso programa de mestrado da FGV, focado em liderança e inovação. Busca por aprofundamento teórico e prático em gestão moderna, networking com profissionais de excelência e preparação para desafios futuros.',
+    description: 'Atual jornada acadêmica no prestigioso programa de MBAda FGV, focado em liderança e inovação. Busca por aprofundamento teórico e prático em gestão moderna, networking com profissionais de excelência e preparação para desafios futuros.',
     image: fgvImg,
-    imageAlt: 'Estudante maduro em biblioteca universitária moderna com arquitetura contemporânea, livros e laptop, representando estudos de mestrado em instituição de prestígio',
+    imageAlt: 'Estudante maduro em biblioteca universitária moderna com arquitetura contemporânea, livros e laptop, representando estudos de MBAem instituição de prestígio',
     icon: GraduationCap,
     color: 'from-indigo-500 to-purple-500',
     details: [
@@ -138,11 +138,11 @@ const timelineData = [
       'Network com executivos de alto nível',
       'Preparação para desafios futuros'
     ],
-    audioDescription: 'Atual fase do mestrado na FGV, de 2024 até o presente, em Gestão: Liderança e Inovação. Imagem de ambiente acadêmico de excelência.'
+    audioDescription: 'Atual fase do MBAna FGV, de 2024 até o presente, em Gestão: Liderança e Inovação. Imagem de ambiente acadêmico de excelência.'
   }
 ]
 
-export default function AccessibleTimeline() {
+export default function AccessibleTimeline () {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [selectedItem, setSelectedItem] = useState(null)
   const [announceText, setAnnounceText] = useState('')
@@ -234,9 +234,9 @@ export default function AccessibleTimeline() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
       {/* Screen Reader Announcements */}
-      <div 
+      <div
         ref={announceRef}
-        aria-live="polite" 
+        aria-live="polite"
         aria-atomic="true"
         className="sr-only"
         role="status"
@@ -245,8 +245,8 @@ export default function AccessibleTimeline() {
       </div>
 
       {/* Skip Navigation */}
-      <a 
-        href="#main-content" 
+      <a
+        href="#main-content"
         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded z-50"
       >
         Pular para conteúdo principal
@@ -256,7 +256,7 @@ export default function AccessibleTimeline() {
       <header className="relative overflow-hidden bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative container mx-auto px-4 py-16 text-center">
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-bold mb-4"
@@ -264,20 +264,20 @@ export default function AccessibleTimeline() {
           >
             Minha Jornada
           </motion.h1>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
             className="text-xl md:text-2xl opacity-90"
             aria-describedby="page-title"
           >
-            Portfólio - Mestrado em Gestão: Liderança e Inovação - FGV
+            Portfólio - MBAem Gestão: Liderança e Inovação - FGV
           </motion.p>
         </div>
       </header>
 
       {/* Timeline Navigation */}
-      <nav 
+      <nav
         className="sticky top-0 z-10 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm border-b"
         aria-label="Navegação da linha do tempo"
         role="navigation"
@@ -295,8 +295,8 @@ export default function AccessibleTimeline() {
               <ChevronLeft className="w-4 h-4" aria-hidden="true" />
               Anterior
             </Button>
-            
-            <div 
+
+            <div
               className="flex items-center gap-2 overflow-x-auto"
               role="tablist"
               aria-label="Períodos da linha do tempo"
@@ -305,11 +305,10 @@ export default function AccessibleTimeline() {
                 <button
                   key={item.id}
                   onClick={() => goToItem(index)}
-                  className={`px-3 py-1 rounded-full text-sm font-medium transition-all ${
-                    index === currentIndex
+                  className={`px-3 py-1 rounded-full text-sm font-medium transition-all ${index === currentIndex
                       ? 'bg-blue-600 text-white'
                       : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                  }`}
+                    }`}
                   role="tab"
                   aria-selected={index === currentIndex}
                   aria-controls={`timeline-panel-${index}`}
@@ -340,15 +339,15 @@ export default function AccessibleTimeline() {
       {/* Instructions for Screen Readers */}
       <div className="sr-only">
         <p>
-          Instruções de navegação: Use as setas esquerda e direita para navegar entre os períodos. 
-          Use Home para ir ao primeiro item, End para o último. 
-          Pressione Enter ou Espaço para ver detalhes do item atual. 
+          Instruções de navegação: Use as setas esquerda e direita para navegar entre os períodos.
+          Use Home para ir ao primeiro item, End para o último.
+          Pressione Enter ou Espaço para ver detalhes do item atual.
           Use Escape para fechar detalhes.
         </p>
       </div>
 
       {/* Main Content */}
-      <main 
+      <main
         className="container mx-auto px-4 py-8"
         id="main-content"
         tabIndex="-1"
@@ -387,7 +386,7 @@ export default function AccessibleTimeline() {
                   </div>
                 </div>
               </motion.div>
-              
+
               {/* Audio Description for Screen Readers */}
               <div className="sr-only">
                 <p>{currentItem.audioDescription}</p>
@@ -434,7 +433,7 @@ export default function AccessibleTimeline() {
                       className="flex items-start gap-3 text-gray-700 dark:text-gray-300"
                       role="listitem"
                     >
-                      <div 
+                      <div
                         className={`w-2 h-2 rounded-full bg-gradient-to-r ${currentItem.color} mt-2 flex-shrink-0`}
                         aria-hidden="true"
                       ></div>
@@ -472,11 +471,10 @@ export default function AccessibleTimeline() {
             {timelineData.map((_, index) => (
               <div
                 key={index}
-                className={`h-2 rounded-full transition-all duration-300 ${
-                  index === currentIndex
+                className={`h-2 rounded-full transition-all duration-300 ${index === currentIndex
                     ? 'w-8 bg-blue-600'
                     : 'w-2 bg-gray-300 dark:bg-gray-600'
-                }`}
+                  }`}
               />
             ))}
           </div>
@@ -512,7 +510,7 @@ export default function AccessibleTimeline() {
               role="document"
             >
               <div className="flex items-center justify-between mb-4">
-                <h3 
+                <h3
                   className="text-2xl font-bold text-gray-900 dark:text-white"
                   id="modal-title"
                 >
@@ -538,7 +536,7 @@ export default function AccessibleTimeline() {
                 className="w-full h-48 object-cover rounded-lg mb-4"
                 loading="lazy"
               />
-              <p 
+              <p
                 className="text-gray-700 dark:text-gray-300 mb-4"
                 id="modal-description"
               >
@@ -550,12 +548,12 @@ export default function AccessibleTimeline() {
                 </h4>
                 <ul className="space-y-2" role="list">
                   {selectedItem.details.map((detail, index) => (
-                    <li 
-                      key={index} 
+                    <li
+                      key={index}
                       className="flex items-start gap-3 text-gray-700 dark:text-gray-300"
                       role="listitem"
                     >
-                      <div 
+                      <div
                         className={`w-2 h-2 rounded-full bg-gradient-to-r ${selectedItem.color} mt-2 flex-shrink-0`}
                         aria-hidden="true"
                       ></div>
@@ -564,7 +562,7 @@ export default function AccessibleTimeline() {
                   ))}
                 </ul>
               </div>
-              
+
               {/* Audio Description for Modal */}
               <div className="sr-only">
                 <p>{selectedItem.audioDescription}</p>
