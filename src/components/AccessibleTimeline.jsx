@@ -52,7 +52,7 @@ const timelineData = [
   {
     id: 3,
     year: '2007-2011',
-    title: 'Graduação',
+    title: 'Graduação - UFRN',
     subtitle: 'Formação Superior',
     description: 'Graduação em Engenharia Elétrica, onde foram desenvolvidas competências técnicas e soft skills essenciais. Participação em projetos acadêmicos, estágios e iniciativas que proporcionaram experiência prática no mundo corporativo.',
     image: universityImg,
@@ -98,7 +98,7 @@ const timelineData = [
     details: [
       'Liderança de equipes de suporte técnico',
       'Inicio dos Estudos em IA e Machine Learning',
-      'Implementação de projeto de Machine Learning / Automação Industrial em Plataformas da Petrobras',
+      'Implementação de projeto de Machine Learning / Automação Industrial em Plataformas da Petrobras (Primeiro do tipo na História da Empresa)',
       'Mentoria e desenvolvimento de talentos'
     ],
     audioDescription: 'Período de crescimento profissional, de 2019 a 2020, focado em liderança. Imagem mostra liderança de equipe em ambiente corporativo.'
@@ -135,7 +135,7 @@ const timelineData = [
       'Programa de excelência em gestão',
       'Participação elogiada nos primeiros processos seletivos gerências',
       'Indicação da liderança formal para o MBA da FGV',
-      'Convite para atuar exterior na China e na Coreia pela Petrobras (Projetos P-79 e P-82).'
+      'Convite para atuar exterior na China e na Coreia pela Petrobras (Projetos P-78,P-79,P-80,P-82 e P-83).'
     ],
     audioDescription: 'Atual fase do MBA na FGV, de 2024 até o presente, em Gestão: Liderança e Inovação. Imagem de ambiente acadêmico de excelência.'
   }
