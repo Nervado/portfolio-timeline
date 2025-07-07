@@ -42,7 +42,7 @@ As imagens estão em `src/assets/`:
 - `corporate_start.jpg` - Início da carreira
 - `leadership_team.jpg` - Liderança/equipe
 - `hobbies_interests.jpg` - Hobbies e interesses
-- `fgv_masters.jpg` - MBAFGV
+- `fgv_masters.jpg` - MBA FGV
 
 #### Editar Informações
 Abra `src/components/Timeline.jsx` e modifique o array `timelineData`:

@@ -125,7 +125,7 @@ const timelineData = [
   {
     id: 7,
     year: '2024-Presente',
-    title: 'MBAFGV',
+    title: 'MBA FGV',
     subtitle: 'Gestão: Liderança e Inovação',
     description: 'Atual jornada acadêmica no prestigioso programa de MBAda FGV, focado em liderança e inovação. Busca por aprofundamento teórico e prático em gestão moderna, networking com profissionais de excelência e preparação para desafios futuros.',
     image: fgvImg,
@@ -138,7 +138,7 @@ const timelineData = [
       'Network com executivos de alto nível',
       'Preparação para desafios futuros'
     ],
-    audioDescription: 'Atual fase do MBAna FGV, de 2024 até o presente, em Gestão: Liderança e Inovação. Imagem de ambiente acadêmico de excelência.'
+    audioDescription: 'Atual fase do MBA na FGV, de 2024 até o presente, em Gestão: Liderança e Inovação. Imagem de ambiente acadêmico de excelência.'
   }
 ]
 
@@ -271,7 +271,7 @@ export default function AccessibleTimeline () {
             className="text-xl md:text-2xl opacity-90"
             aria-describedby="page-title"
           >
-            Portfólio - MBAem Gestão: Liderança e Inovação - FGV
+            Portfólio - MBA em Gestão: Liderança e Inovação - FGV
           </motion.p>
         </div>
       </header>
@@ -306,8 +306,8 @@ export default function AccessibleTimeline () {
                   key={item.id}
                   onClick={() => goToItem(index)}
                   className={`px-3 py-1 rounded-full text-sm font-medium transition-all ${index === currentIndex
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
                     }`}
                   role="tab"
                   aria-selected={index === currentIndex}
@@ -472,8 +472,8 @@ export default function AccessibleTimeline () {
               <div
                 key={index}
                 className={`h-2 rounded-full transition-all duration-300 ${index === currentIndex
-                    ? 'w-8 bg-blue-600'
-                    : 'w-2 bg-gray-300 dark:bg-gray-600'
+                  ? 'w-8 bg-blue-600'
+                  : 'w-2 bg-gray-300 dark:bg-gray-600'
                   }`}
               />
             ))}
