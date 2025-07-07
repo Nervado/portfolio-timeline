@@ -80,8 +80,9 @@ const timelineData = [
     details: [
       'Adaptação rápida ao ambiente corporativo',
       'Aprendizado contínuo e desenvolvimento técnico',
-      'Participação em primeiro projeto complexo com contribuição impactante',
-      'Redução de custo de milhões em um retrofit de sistema de automação elétrica para a Petrobras'
+      'Participação em primeiro projeto complexo com contribuição impactante ajudando a guiar pessoas a uma meta comum',
+      'Desenvolvemos uma solução eficiente para migração de multiplos sistemas com minimo impacto na planta',
+      'Redução de custo de milhões em um retrofit de sistema de automação elétrica para a Petrobras criando uma solução usando team wisdom com dois outros colegas de empresa com conhecimentos complementares'
     ],
     audioDescription: 'Início da carreira profissional, de 2012 a 2019, marcado pelos primeiros passos no mundo corporativo. Imagem de ambiente de escritório moderno.'
   },
