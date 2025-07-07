@@ -1,6 +1,6 @@
 # Portfólio Timeline Interativa - MBA FGV
 
-Um site de portfólio moderno com timeline interativa, criado especificamente para apresentação no MBAem Gestão: Liderança e Inovação da FGV.
+Um site de portfólio moderno com timeline interativa, criado especificamente para apresentação no MBA em Gestão: Liderança e Inovação da FGV.
 
 ## 🚀 Como Usar Este Projeto
 

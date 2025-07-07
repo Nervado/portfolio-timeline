@@ -115,7 +115,7 @@ const timelineData = [
     year: '2024-Presente',
     title: 'MBAFGV',
     subtitle: 'Gestão: Liderança e Inovação',
-    description: 'Atual jornada acadêmica no prestigioso programa de MBAda FGV, focado em liderança e inovação. Busca por aprofundamento teórico e prático em gestão moderna, networking com profissionais de excelência e preparação para desafios futuros.',
+    description: 'Atual jornada acadêmica no prestigioso programa de MBA da FGV, focado em liderança e inovação. Busca por aprofundamento teórico e prático em gestão moderna, networking com profissionais de excelência e preparação para desafios futuros.',
     image: fgvImg,
     icon: GraduationCap,
     color: 'from-indigo-500 to-purple-500',
@@ -177,7 +177,7 @@ export default function Timeline () {
             transition={{ delay: 0.2 }}
             className="text-xl md:text-2xl opacity-90"
           >
-            Portfólio - MBAem Gestão: Liderança e Inovação - FGV
+            Portfólio - MBA em Gestão: Liderança e Inovação - FGV
           </motion.p>
         </div>
       </div>
