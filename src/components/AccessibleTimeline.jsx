@@ -7,7 +7,7 @@ import { Card, CardContent } from '@/components/ui/card'
 // Importar imagens
 import childhoodImg from '../assets/childhood.jpeg'
 import highSchoolImg from '../assets/high_school_graduation.jpeg'
-import universityImg from '../assets/university_graduation.jpg'
+import universityImg from '../assets/university_graduation.jpeg'
 import corporateImg from '../assets/corporate_start.jpg'
 import leadershipImg from '../assets/leadership_team.jpg'
 import hobbiesImg from '../assets/hobbies_interests.jpg'
