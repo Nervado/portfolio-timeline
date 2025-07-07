@@ -6,7 +6,7 @@ import { Card, CardContent } from '@/components/ui/card'
 
 // Importar imagens
 import childhoodImg from '../assets/childhood.jpeg'
-import highSchoolImg from '../assets/high_school_graduation.jpg'
+import highSchoolImg from '../assets/high_school_graduation.jpeg'
 import universityImg from '../assets/university_graduation.jpg'
 import corporateImg from '../assets/corporate_start.jpg'
 import leadershipImg from '../assets/leadership_team.jpg'
@@ -65,7 +65,7 @@ const timelineData = [
       'Aprovado na seleção para Mestrado Academico em Comunicações Móveis pela UFRN',
       'Aprovado na seleção para Engenharia Eletrônica pela Petrobras, 3 lugar nacional'
     ],
-    audioDescription: 'Fase da graduação universitária, de 2013 a 2017, focada na formação superior. Imagem mostra formatura em ambiente universitário prestigioso.'
+    audioDescription: 'Fase da graduação universitária, de 2007 a 2011, focada na formação superior. Imagem mostra formatura em ambiente universitário prestigioso.'
   },
   {
     id: 4,
