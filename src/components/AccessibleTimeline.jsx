@@ -11,7 +11,7 @@ import universityImg from '../assets/university_graduation.jpeg'
 import corporateImg from '../assets/corporate_start.jpeg'
 import leadershipImg from '../assets/leadership_team.jpg'
 import hobbiesImg from '../assets/hobbies_interests.jpeg'
-import fgvImg from '../assets/fgv_masters.jpg'
+import fgvImg from '../assets/fgv_masters.jpeg'
 
 const timelineData = [
   {
