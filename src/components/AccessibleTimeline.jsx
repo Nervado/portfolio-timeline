@@ -27,16 +27,16 @@ const timelineData = [
       'Desenvolvimento de valores familiares sólidos',
       'Interação desde muito cedo por livros mesmo quando não sabia Ler',
       'Formação do caráter e personalidade com muita influência do avó Paterno',
-      'Descoberta de interesses e talentos naturais em Exatas e aprovação entre os top 8 para a escola federal'
+      'Descoberta de interesses e talentos naturais em Exatas e aprovação entre os top 8 para a escola técnica federal'
     ],
-    audioDescription: 'Seção sobre os primeiros anos de vida, de 1989 a 2002, focando na infância e formação inicial. Imagem mostra uma criança feliz em ambiente familiar.'
+    audioDescription: 'Seção sobre os primeiros anos de vida, de 1989 a 2003, focando na infância e formação inicial. Imagem mostra uma criança feliz em ambiente familiar.'
   },
   {
     id: 2,
     year: '2004-2006',
     title: 'Ensino Médio - CEFET / RN',
     subtitle: 'Conclusão da Educação Básica',
-    description: 'Período de consolidação dos conhecimentos fundamentais e desenvolvimento de habilidades de liderança. Participação ativa em atividades extracurriculares e projetos que despertaram o interesse pela gestão e inovação.',
+    description: 'Período de consolidação dos conhecimentos fundamentais e desenvolvimento de habilidades de liderança. Participação ativa em atividades extracurriculares e projetos que despertaram o interesse pela ciência e inovação.',
     image: highSchoolImg,
     imageAlt: 'Jovem estudante em cerimônia de formatura do ensino médio, usando beca e capelo, representando a conclusão da educação básica',
     icon: GraduationCap,
@@ -47,7 +47,7 @@ const timelineData = [
       'Desenvolvimento de habilidades de comunicação',
       'Preparação para o ensino superior com aprovação em top 3 para a Universidade Federal'
     ],
-    audioDescription: 'Período do ensino médio, de 2010 a 2012, marcado pela conclusão da educação básica. Imagem de formatura simboliza esta conquista acadêmica.'
+    audioDescription: 'Período do ensino médio, de 2004 a 2006, marcado pela conclusão da educação básica. Imagem de formatura simboliza esta conquista acadêmica.'
   },
   {
     id: 3,
@@ -63,13 +63,13 @@ const timelineData = [
       'Formação sólida em hardskills na área sendo referência entre os colegas',
       'Projetos acadêmicos de destaque',
       'Aprovado na seleção para Mestrado Academico em Comunicações Móveis pela UFRN',
-      'Desenvolvimento de network profissional'
+      'Aprovado na seleção para Engenharia Eletrônica pela Petrobras, 3 lugar nacional'
     ],
     audioDescription: 'Fase da graduação universitária, de 2013 a 2017, focada na formação superior. Imagem mostra formatura em ambiente universitário prestigioso.'
   },
   {
     id: 4,
-    year: '2017-2019',
+    year: '2012-2019',
     title: 'Início da Carreira',
     subtitle: 'Primeiros Passos Profissionais',
     description: 'Entrada no mercado de trabalho com foco em aprendizado e crescimento. Período de adaptação ao ambiente corporativo, desenvolvimento de competências práticas e construção de uma base sólida para a carreira profissional.',
@@ -87,7 +87,7 @@ const timelineData = [
   },
   {
     id: 5,
-    year: '2019-2022',
+    year: '2019-2020',
     title: 'Crescimento Profissional',
     subtitle: 'Liderança e Inovação',
     description: 'Evolução na carreira com assumir responsabilidades de liderança e gestão de equipes. Implementação de projetos inovadores, desenvolvimento de estratégias e contribuição significativa para os resultados organizacionais.',
@@ -105,7 +105,7 @@ const timelineData = [
   },
   {
     id: 6,
-    year: '2020-Presente',
+    year: '2020-2024',
     title: 'Interesses e Hobbies',
     subtitle: 'Equilíbrio Vida-Trabalho',
     description: 'Manutenção de interesses pessoais e hobbies que contribuem para o desenvolvimento integral. Atividades que proporcionam relaxamento, criatividade e perspectivas diferentes, essenciais para a liderança eficaz.',
@@ -114,16 +114,16 @@ const timelineData = [
     icon: Heart,
     color: 'from-teal-500 to-cyan-500',
     details: [
-      'Leitura e desenvolvimento intelectual',
-      'Atividades físicas e bem-estar',
-      'Projetos criativos e artísticos',
-      'Voluntariado e responsabilidade social'
+      'Leitura sempre sobre os mais diversos temas possíveis',
+      'Musculação e caminhadas',
+      'Violão e Astronomia',
+      'Inicio dos estudos sobre empreendedorismo'
     ],
     audioDescription: 'Seção sobre interesses e hobbies, de 2020 até o presente, focando no equilíbrio vida-trabalho. Imagem de leitura em biblioteca aconchegante.'
   },
   {
     id: 7,
-    year: '2024-Presente',
+    year: '2025-Presente',
     title: 'MBA FGV',
     subtitle: 'Gestão: Liderança e Inovação',
     description: 'Atual jornada acadêmica no prestigioso programa de MBAda FGV, focado em liderança e inovação. Busca por aprofundamento teórico e prático em gestão moderna, networking com profissionais de excelência e preparação para desafios futuros.',
