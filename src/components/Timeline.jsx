@@ -19,7 +19,7 @@ const timelineData = [
     year: '1989-2003',
     title: 'Primeiros Anos',
     subtitle: 'Infância e Formação Inicial',
-    description: 'Infância em Natal/RN, Muitas brincadeiras, terreno grande para correr, muita bicicleta e livros',
+    description: 'Infância em Natal/RN, Muitas brincadeiras, terreno grande para correr, muitos passeios de bicicleta e livros',
     image: childhoodImg,
     icon: Heart,
     color: 'from-pink-500 to-rose-500',
