@@ -16,26 +16,25 @@ import fgvImg from '../assets/fgv_masters.jpg'
 const timelineData = [
   {
     id: 1,
-    year: '1995-2005',
+    year: '1989-2003',
     title: 'Primeiros Anos',
     subtitle: 'Infância e Formação Inicial',
-    description: 'Os primeiros anos de vida são fundamentais para o desenvolvimento de valores, caráter e visão de mundo. Durante esta fase, foram estabelecidas as bases familiares e educacionais que moldaram minha personalidade e aspirações futuras.',
+    description: 'Infância em Natal/RN, muitas brincadeiras, terreno grande para correr, muitos passeios de bicicleta e livros',
     image: childhoodImg,
-    imageAlt: 'Foto de uma criança sorridente em um jardim ensolarado, representando os primeiros anos de vida e formação inicial',
     icon: Heart,
     color: 'from-pink-500 to-rose-500',
     details: [
       'Desenvolvimento de valores familiares sólidos',
-      'Primeiras experiências educacionais',
-      'Formação do caráter e personalidade',
-      'Descoberta de interesses e talentos naturais'
+      'Interação desde muito cedo por livros mesmo quando não sabia Ler',
+      'Formação do caráter e personalidade com muita influência do avó Paterno',
+      'Descoberta de interesses e talentos naturais em Exatas e aprovação entre os top 8 para a escola federal'
     ],
-    audioDescription: 'Seção sobre os primeiros anos de vida, de 1995 a 2005, focando na infância e formação inicial. Imagem mostra uma criança feliz em ambiente familiar.'
+    audioDescription: 'Seção sobre os primeiros anos de vida, de 1989 a 2002, focando na infância e formação inicial. Imagem mostra uma criança feliz em ambiente familiar.'
   },
   {
     id: 2,
-    year: '2010-2012',
-    title: 'Ensino Médio',
+    year: '2004-2006',
+    title: 'Ensino Médio - CEFET / RN',
     subtitle: 'Conclusão da Educação Básica',
     description: 'Período de consolidação dos conhecimentos fundamentais e desenvolvimento de habilidades de liderança. Participação ativa em atividades extracurriculares e projetos que despertaram o interesse pela gestão e inovação.',
     image: highSchoolImg,
@@ -43,27 +42,27 @@ const timelineData = [
     icon: GraduationCap,
     color: 'from-blue-500 to-indigo-500',
     details: [
-      'Excelência acadêmica em todas as disciplinas',
-      'Liderança estudantil e projetos sociais',
+      'Paixão por disciplinas ciências Exatas',
+      'Paticipação em eventos de grupos de estudantes',
       'Desenvolvimento de habilidades de comunicação',
-      'Preparação para o ensino superior'
+      'Preparação para o ensino superior com aprovação em top 3 para a Universidade Federal'
     ],
     audioDescription: 'Período do ensino médio, de 2010 a 2012, marcado pela conclusão da educação básica. Imagem de formatura simboliza esta conquista acadêmica.'
   },
   {
     id: 3,
-    year: '2013-2017',
+    year: '2007-2011',
     title: 'Graduação',
     subtitle: 'Formação Superior',
-    description: 'Graduação em área relacionada à gestão, onde foram desenvolvidas competências técnicas e soft skills essenciais. Participação em projetos acadêmicos, estágios e iniciativas que proporcionaram experiência prática no mundo corporativo.',
+    description: 'Graduação em Engenharia Elétrica, onde foram desenvolvidas competências técnicas e soft skills essenciais. Participação em projetos acadêmicos, estágios e iniciativas que proporcionaram experiência prática no mundo corporativo.',
     image: universityImg,
     imageAlt: 'Jovem adulto em cerimônia de formatura universitária em frente a um belo edifício universitário, segurando diploma, representando a conquista da formação superior',
     icon: BookOpen,
     color: 'from-green-500 to-emerald-500',
     details: [
-      'Formação sólida em gestão e negócios',
+      'Formação sólida em hardskills na área sendo referência entre os colegas',
       'Projetos acadêmicos de destaque',
-      'Estágios em empresas renomadas',
+      'Aprovado na seleção para Mestrado Academico em Comunicações Móveis pela UFRN',
       'Desenvolvimento de network profissional'
     ],
     audioDescription: 'Fase da graduação universitária, de 2013 a 2017, focada na formação superior. Imagem mostra formatura em ambiente universitário prestigioso.'
@@ -97,9 +96,9 @@ const timelineData = [
     icon: MapPin,
     color: 'from-orange-500 to-red-500',
     details: [
-      'Liderança de equipes multidisciplinares',
-      'Implementação de projetos inovadores',
-      'Gestão estratégica e resultados',
+      'Liderança de equipes de suporte técnico',
+      'Implementação de projeto de Machine Learning em Plataformas da Petrobras',
+      'Inicio dos Estudos em IA e Machine Learning',
       'Mentoria e desenvolvimento de talentos'
     ],
     audioDescription: 'Período de crescimento profissional, de 2019 a 2022, focado em liderança e inovação. Imagem mostra liderança de equipe em ambiente corporativo.'
@@ -136,7 +135,7 @@ const timelineData = [
       'Programa de excelência em gestão',
       'Foco em liderança e inovação',
       'Network com executivos de alto nível',
-      'Preparação para desafios futuros'
+      'Atuação no exterior na China e na Coreia pela Petrobras (Projetos P-79 e P-82).'
     ],
     audioDescription: 'Atual fase do MBA na FGV, de 2024 até o presente, em Gestão: Liderança e Inovação. Imagem de ambiente acadêmico de excelência.'
   }
