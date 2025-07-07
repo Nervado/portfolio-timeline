@@ -133,7 +133,7 @@ const timelineData = [
     color: 'from-indigo-500 to-purple-500',
     details: [
       'Programa de excelência em gestão',
-      'Participação elogiada nos primeiros processos seletivos gerências',
+      'Participação elogiada nos primeiros processos seletivos gerênciais',
       'Indicação da liderança formal para o MBA da FGV',
       'Convite para atuar exterior na China e na Coreia pela Petrobras (Projetos P-78,P-79,P-80,P-82 e P-83).'
     ],
