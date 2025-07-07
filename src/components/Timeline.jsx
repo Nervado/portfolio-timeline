@@ -42,16 +42,16 @@ const timelineData = [
     details: [
       'Excelência acadêmica em todas as disciplinas exceto português no início',
       'Paixão instânea pela sala de informática',
-      'Desenvolvimento de habilidades de comunicação',
+      'Desenvolvimento de habilidades de comunicação durante a estadia no CEFET',
       'Experiência como menor aprendiz e primeiro emprego'
     ]
   },
   {
     id: 3,
-    year: '2013-2017',
+    year: '2007-2011',
     title: 'Graduação',
     subtitle: 'Formação Superior',
-    description: 'Graduação em área relacionada à gestão, onde foram desenvolvidas competências técnicas e soft skills essenciais. Participação em projetos acadêmicos, estágios e iniciativas que proporcionaram experiência prática no mundo corporativo.',
+    description: 'Graduação em área em Engenharia Eletrica, onde foram desenvolvidas competências técnicas e soft skills essenciais. Participação em projetos acadêmicos, estágios.',
     image: universityImg,
     icon: BookOpen,
     color: 'from-green-500 to-emerald-500',
