@@ -126,7 +126,7 @@ const timelineData = [
     year: '2025-Presente',
     title: 'MBA FGV',
     subtitle: 'Gestão: Liderança e Inovação',
-    description: 'Atual jornada acadêmica no prestigioso programa de MBAda FGV, focado em liderança e inovação. Busca por aprofundamento teórico e prático em gestão moderna, networking com profissionais de excelência e preparação para desafios futuros.',
+    description: 'Atual jornada acadêmica no prestigioso programa de MBA da FGV, focado em liderança e inovação. Busca por aprofundamento teórico e prático em gestão moderna, networking com profissionais de excelência e preparação para desafios futuros.',
     image: fgvImg,
     imageAlt: 'Estudante maduro em biblioteca universitária moderna com arquitetura contemporânea, livros e laptop, representando estudos de MBAem instituição de prestígio',
     icon: GraduationCap,
