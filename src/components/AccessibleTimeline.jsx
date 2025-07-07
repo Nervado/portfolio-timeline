@@ -80,8 +80,8 @@ const timelineData = [
     details: [
       'Adaptação rápida ao ambiente corporativo',
       'Aprendizado contínuo e desenvolvimento técnico',
-      'Construção de relacionamentos profissionais',
-      'Primeiros resultados e reconhecimentos'
+      'Participação em primeiro projeto complexo com contribuição impactante',
+      'Redução de custo de milhões em um retrofit de sistema de automação elétrica para a Petrobras'
     ],
     audioDescription: 'Início da carreira profissional, de 2012 a 2019, marcado pelos primeiros passos no mundo corporativo. Imagem de ambiente de escritório moderno.'
   },
