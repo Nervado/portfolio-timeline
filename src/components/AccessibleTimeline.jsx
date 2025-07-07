@@ -83,7 +83,7 @@ const timelineData = [
       'Construção de relacionamentos profissionais',
       'Primeiros resultados e reconhecimentos'
     ],
-    audioDescription: 'Início da carreira profissional, de 2017 a 2019, marcado pelos primeiros passos no mundo corporativo. Imagem de ambiente de escritório moderno.'
+    audioDescription: 'Início da carreira profissional, de 2012 a 2019, marcado pelos primeiros passos no mundo corporativo. Imagem de ambiente de escritório moderno.'
   },
   {
     id: 5,
@@ -97,15 +97,15 @@ const timelineData = [
     color: 'from-orange-500 to-red-500',
     details: [
       'Liderança de equipes de suporte técnico',
-      'Implementação de projeto de Machine Learning em Plataformas da Petrobras',
       'Inicio dos Estudos em IA e Machine Learning',
+      'Implementação de projeto de Machine Learning / Automação Industrial em Plataformas da Petrobras',
       'Mentoria e desenvolvimento de talentos'
     ],
-    audioDescription: 'Período de crescimento profissional, de 2019 a 2022, focado em liderança e inovação. Imagem mostra liderança de equipe em ambiente corporativo.'
+    audioDescription: 'Período de crescimento profissional, de 2019 a 2020, focado em liderança. Imagem mostra liderança de equipe em ambiente corporativo.'
   },
   {
     id: 6,
-    year: '2020-2024',
+    year: '2020-Presente',
     title: 'Interesses e Hobbies',
     subtitle: 'Equilíbrio Vida-Trabalho',
     description: 'Manutenção de interesses pessoais e hobbies que contribuem para o desenvolvimento integral. Atividades que proporcionam relaxamento, criatividade e perspectivas diferentes, essenciais para a liderança eficaz.',
@@ -115,7 +115,7 @@ const timelineData = [
     color: 'from-teal-500 to-cyan-500',
     details: [
       'Leitura sempre sobre os mais diversos temas possíveis',
-      'Musculação e caminhadas',
+      'Abondono da vida sedentária e entrada na Musculação e prática de caminhadas',
       'Violão e Astronomia',
       'Inicio dos estudos sobre empreendedorismo'
     ],
@@ -133,9 +133,9 @@ const timelineData = [
     color: 'from-indigo-500 to-purple-500',
     details: [
       'Programa de excelência em gestão',
-      'Foco em liderança e inovação',
-      'Network com executivos de alto nível',
-      'Atuação no exterior na China e na Coreia pela Petrobras (Projetos P-79 e P-82).'
+      'Participação elogiada nos primeiros processos seletivos gerências',
+      'Indicação da liderança formal para o MBA da FGV',
+      'Convite para atuar exterior na China e na Coreia pela Petrobras (Projetos P-79 e P-82).'
     ],
     audioDescription: 'Atual fase do MBA na FGV, de 2024 até o presente, em Gestão: Liderança e Inovação. Imagem de ambiente acadêmico de excelência.'
   }
