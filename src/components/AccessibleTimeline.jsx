@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 
 // Importar imagens
-import childhoodImg from '../assets/childhood.jpg'
+import childhoodImg from '../assets/childhood.jpeg'
 import highSchoolImg from '../assets/high_school_graduation.jpg'
 import universityImg from '../assets/university_graduation.jpg'
 import corporateImg from '../assets/corporate_start.jpg'
@@ -376,9 +376,10 @@ export default function AccessibleTimeline () {
                 <img
                   src={currentItem.image}
                   alt={currentItem.imageAlt}
-                  className="w-full h-96 lg:h-[500px] object-cover"
+                  className="w-full h-96 lg:h-[500px] object-cover object-top"
                   loading="lazy"
                 />
+
                 <div className={`absolute inset-0 bg-gradient-to-t ${currentItem.color} opacity-20`} aria-hidden="true"></div>
                 <div className="absolute top-4 left-4" aria-hidden="true">
                   <div className={`p-3 rounded-full bg-gradient-to-r ${currentItem.color} text-white shadow-lg`}>
