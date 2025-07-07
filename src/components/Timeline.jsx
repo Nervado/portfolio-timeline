@@ -16,23 +16,23 @@ import fgvImg from '../assets/fgv_masters.jpg'
 const timelineData = [
   {
     id: 1,
-    year: '1995-2005',
+    year: '1989-2003',
     title: 'Primeiros Anos',
     subtitle: 'Infância e Formação Inicial',
-    description: 'Os primeiros anos de vida são fundamentais para o desenvolvimento de valores, caráter e visão de mundo. Durante esta fase, foram estabelecidas as bases familiares e educacionais que moldaram minha personalidade e aspirações futuras.',
+    description: 'Infância em Natal/RN, Muitas brincadeiras, terreno grande para correr, muita bicicleta e livros',
     image: childhoodImg,
     icon: Heart,
     color: 'from-pink-500 to-rose-500',
     details: [
       'Desenvolvimento de valores familiares sólidos',
-      'Primeiras experiências educacionais',
+      'Interação desde muito cedo por livros mesmo quando não sabia Ler',
       'Formação do caráter e personalidade',
-      'Descoberta de interesses e talentos naturais'
+      'Descoberta de interesses e talentos naturais em Exatas principalmente'
     ]
   },
   {
     id: 2,
-    year: '2010-2012',
+    year: '2004-2006',
     title: 'Ensino Médio',
     subtitle: 'Conclusão da Educação Básica',
     description: 'Período de consolidação dos conhecimentos fundamentais e desenvolvimento de habilidades de liderança. Participação ativa em atividades extracurriculares e projetos que despertaram o interesse pela gestão e inovação.',
@@ -40,10 +40,10 @@ const timelineData = [
     icon: GraduationCap,
     color: 'from-blue-500 to-indigo-500',
     details: [
-      'Excelência acadêmica em todas as disciplinas',
-      'Liderança estudantil e projetos sociais',
+      'Excelência acadêmica em todas as disciplinas exceto português no início',
+      'Paixão instânea pela sala de informática',
       'Desenvolvimento de habilidades de comunicação',
-      'Preparação para o ensino superior'
+      'Experiência como menor aprendiz e primeiro emprego'
     ]
   },
   {
@@ -128,7 +128,7 @@ const timelineData = [
   }
 ]
 
-export default function Timeline() {
+export default function Timeline () {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [selectedItem, setSelectedItem] = useState(null)
   const scrollContainerRef = useRef(null)
@@ -164,14 +164,14 @@ export default function Timeline() {
       <div className="relative overflow-hidden bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative container mx-auto px-4 py-16 text-center">
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-bold mb-4"
           >
             Minha Jornada
           </motion.h1>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
@@ -195,17 +195,16 @@ export default function Timeline() {
               <ChevronLeft className="w-4 h-4" />
               Anterior
             </Button>
-            
+
             <div className="flex items-center gap-2 overflow-x-auto">
               {timelineData.map((item, index) => (
                 <button
                   key={item.id}
                   onClick={() => goToItem(index)}
-                  className={`px-3 py-1 rounded-full text-sm font-medium transition-all ${
-                    index === currentIndex
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                  }`}
+                  className={`px-3 py-1 rounded-full text-sm font-medium transition-all ${index === currentIndex
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                    }`}
                 >
                   {item.year}
                 </button>
@@ -327,11 +326,10 @@ export default function Timeline() {
             {timelineData.map((_, index) => (
               <div
                 key={index}
-                className={`h-2 rounded-full transition-all duration-300 ${
-                  index === currentIndex
-                    ? 'w-8 bg-blue-600'
-                    : 'w-2 bg-gray-300 dark:bg-gray-600'
-                }`}
+                className={`h-2 rounded-full transition-all duration-300 ${index === currentIndex
+                  ? 'w-8 bg-blue-600'
+                  : 'w-2 bg-gray-300 dark:bg-gray-600'
+                  }`}
               />
             ))}
           </div>
