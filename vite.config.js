@@ -5,10 +5,14 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(),tailwindcss()],
+  // <-- aqui você define o "prefixo" de todas as URLs geradas
+  base: '/portfolio-timeline/',
+  plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
 })
+
+
