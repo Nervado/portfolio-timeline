@@ -42,7 +42,7 @@ const timelineData = [
     icon: GraduationCap,
     color: 'from-blue-500 to-indigo-500',
     details: [
-      'Paixão por disciplinas ciências Exatas',
+      'Paixão por disciplinas ciências Exatas e Violão',
       'Paticipação em eventos de grupos de estudantes',
       'Desenvolvimento de habilidades de comunicação',
       'Preparação para o ensino superior com aprovação em top 3 para a Universidade Federal'
