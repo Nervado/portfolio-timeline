@@ -116,7 +116,7 @@ const timelineData = [
     details: [
       'Leitura sempre sobre os mais diversos temas possíveis',
       'Abondono da vida sedentária e entrada na Musculação e prática de caminhadas',
-      'Violão e Astronomia',
+      'Praticar violão e estudar Astronomia',
       'Inicio dos estudos sobre empreendedorismo'
     ],
     audioDescription: 'Seção sobre interesses e hobbies, de 2020 até o presente, focando no equilíbrio vida-trabalho. Imagem de leitura em biblioteca aconchegante.'
@@ -133,11 +133,12 @@ const timelineData = [
     color: 'from-indigo-500 to-purple-500',
     details: [
       'Recebimento de Elogio Gerêncial da Companhia no Curriculo Corporativo',
-      'Participação elogiada nos primeiros processos seletivos gerenciais',
+      'Participação elogiada nos primeiros processos seletivos gerenciais, inicito ativo de busca de posição na carreira',
       'Indicação da liderança formal para o MBA da FGV',
+      'Experiências nas culturas Chinesa e Sul Coreana',
       'Convite para atuar durante os proximos anos na China, Coreia do Sul e Singapura pela Petrobras (Projetos P-78,P-79,P-80,P-82 e P-83).'
     ],
-    audioDescription: 'Atual fase do MBA na FGV, de 2024 até o presente, em Gestão: Liderança e Inovação. Imagem de ambiente acadêmico de excelência.'
+    audioDescription: 'Atual fase do MBA na FGV, de 2024 até o presente, alguns destaques da carreira e menção a experiências internacionais na China e Coréia do Sul. Imagem de ambiente acadêmico de excelência.'
   }
 ]
 
